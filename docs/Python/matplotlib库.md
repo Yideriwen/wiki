@@ -1,6 +1,5 @@
 # matplotlib库
 
-[toc]
 
 ## 导入
 

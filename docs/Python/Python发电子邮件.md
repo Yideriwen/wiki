@@ -1,7 +1,5 @@
 # Python发电子邮件
 
-[toc]
-
 ![img](https://adamyide-1256435674.cos.ap-shanghai.myqcloud.com/2020-12-09-144051.png)
 
 ## 简单邮件对象
