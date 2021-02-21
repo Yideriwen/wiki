@@ -15,5 +15,6 @@ file = open(target_file, 'w')
 for i in folders:
     file.write('* '+i+'\n')
     for j in os.listdir('./'+i):
-        file.write('\n\t'+'* '+'['+j[:-3]+']'+'('+i+'/'+j+')'+'\n')
+        if os.path.splitext('./'+i)[-1] == ".md":
+            file.write('\n\t'+'* '+'['+j[:-3]+']'+'('+i+'/'+j+')'+'\n')
 file.close()
