@@ -1,6 +1,6 @@
 * Git
 
-	* [Git使用及GitHub使用 1](Git/Git使用及GitHub使用 1.md)
+	* [Git使用及GitHub使用](Git/Git使用及GitHub使用.md)
 * Mental_Models
 * Pandas
 
