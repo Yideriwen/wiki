@@ -2,6 +2,8 @@
 
 	* [Git使用及GitHub使用](Git/Git使用及GitHub使用.md)
 * Mental_Models
+
+	* [现象概念](Mental_Models/现象概念.md)
 * Pandas
 
 	* [可视化](Pandas/可视化.md)
