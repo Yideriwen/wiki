@@ -8,6 +8,8 @@
 
 	* [可视化](Pandas/可视化.md)
 
+	* [Quantify](Pandas/Quantify.md)
+
 	* [Pandas主要数据结构](Pandas/Pandas主要数据结构.md)
 
 	* [Pandas一些操作](Pandas/Pandas一些操作.md)
