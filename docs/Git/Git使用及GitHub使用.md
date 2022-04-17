@@ -46,7 +46,7 @@ else：
 ```zsh
 $ ssh-keygen -r rsa -C "<youemail>"
 ```
-可不舍密码
+可不设置密码
 
 ## 2）GitHub上的配置
 头像——setting——左侧菜单栏“Add SSH Key”——添加：
