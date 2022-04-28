@@ -39,3 +39,9 @@
 > ![img](https://adamyide-1256435674.cos.ap-shanghai.myqcloud.com/2020-11-22-164449.jpg)
 
 [返回目录](#目录)
+
+## 时间戳转字符串
+`timestamp`转`str`:
+```python
+<timestamp>.strftime('%Y-%m-%d')
+```
