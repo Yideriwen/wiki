@@ -35,6 +35,7 @@
 | 显示全部行内容                                          | pd.set_option('display.max_rows', None)                      |                                           |
 | 显示全部列内容                                          | pd.set_option('display.max_columns', None)                   |                                           |
 | nan替换为0                                              | df = df.fillna(0)                                            | 空值替换为0                               |
+|对比列的内容不同|列Series化，s1 = df.列1; s2 = df.列2; cdiff = s1.compare(s2)||
 
 * df.列名 = df['列名'] = df["列名"]
 * df.loc[x,y] 中的 x，y可以为列表，用[]圈住，支持有用":"表示的范围表示
