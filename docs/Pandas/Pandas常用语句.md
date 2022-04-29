@@ -37,6 +37,7 @@
 | nan替换为0                                              | df = df.fillna(0)                                            | 空值替换为0                               |
 |对比列的内容不同|列Series化，s1 = df.列1; s2 = df.列2; cdiff = s1.compare(s2)||
 |对日期列进行查询/筛选|条件：列 == pd.Timestamp(\<date>)；列.date() == \<date>||
+|各列求和|df_temp.loc['sum'] = df_temp.apply(lambda x:x.sum())||
 
 * df.列名 = df['列名'] = df["列名"]
 * df.loc[x,y] 中的 x，y可以为列表，用[]圈住，支持有用":"表示的范围表示

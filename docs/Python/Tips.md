@@ -45,3 +45,26 @@
 ```python
 <timestamp>.strftime('%Y-%m-%d')
 ```
+
+## 把Series放入df
+分别把index和values放入df
+eg：
+```python
+for vmonth in timestamp_prm:
+	name = 'df_'+vmonth.strftime('%Y%m%d')
+	locals()[name] = pd.DataFrame()
+	locals()[name]['Campus'] = df_marge[df_marge['统计日期'] == vmonth].Campus.value_counts().index
+	locals()[name][vmonth.strftime('%Y%m%d')] = df_marge[df_marge['统计日期'] == vmonth].Campus.value_counts().values
+```
+
+## df迭代填充
+第一个和其他分开处理
+eg：
+```python
+df_temp = pd.DataFrame()
+for i in range(len(month_list)):
+	if i == 0:
+		df_temp = locals()[month_list[i]]
+	else:
+		df_temp = pd.merge(df_temp,locals()[month_list[i]],how = 'outer',on = 'Campus')
+```
