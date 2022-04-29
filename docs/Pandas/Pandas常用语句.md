@@ -17,7 +17,7 @@
 | 是否在里面                                              | isin()                                                       |                                           |
 | 创建空df                                                | df = pd.DataFrame(columns=[列名s])                           |                                           |
 | 更改某列的数据类型                                      | df[[列]] = df[[列]].astype('float64')                        |                                           |
-| 单列df转list                                            | .tolist()                                                    |                                           |
+| 单列df/Series转list                                            | .tolist()                                                    |                                           |
 | 组合list                                                | 1）+ 2）.extend() 3）插入 A[x:y]=B ，B插入A                  |                                           |
 | 对字符串进行切片                                        | .map(lambda x: x.split("-")[0])                              | 用-分割                                   |
 | list去重                                                | lst2 = list(set(lst1))                                       |                                           |
